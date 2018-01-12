@@ -40,5 +40,8 @@
     },
     "archive": {
         "exclude": ["/tests"]
-    }
+    },
+    "replace": {
+        "microsoft/azure-storage"
+    },
 }
