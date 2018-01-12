@@ -250,7 +250,7 @@ class ServiceProperties
     private function getCorsesArray()
     {
         $corsesArray = array();
-        if (count($this->getCorses()) == 1) {
+        if (is_array($this->getCorses()) && count($this->getCorses()) == 1) {
             $corsesArray = array(
                 Resources::XTAG_CORS_RULE => $this->getCorses()[0]->toArray()
             );
