@@ -40,8 +40,5 @@
     },
     "archive": {
         "exclude": ["/tests"]
-    },
-    "replace": {
-        "microsoft/azure-storage": "0.19.1"
-    },
+    }
 }
